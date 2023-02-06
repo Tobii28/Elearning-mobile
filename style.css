@@ -1,0 +1,273 @@
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url(./font/PlusJakartaDisplay-Regular.otf);
+}
+body{
+    background-color: #fff;
+    width: 375px;
+    font-family: 'Plus Jakarta Sans';
+}
+.container{
+    padding: 16px;
+    padding: 0px;
+}
+
+.header{
+    background-color: #fff;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h2-heading{
+    display: inline;
+    color: #13183f;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+
+.get-started-1{
+    width: 140px;
+    border: #13183f;
+    background-color: #13183f;
+    border-radius: 28px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 9px 24px; 
+    cursor: pointer;
+}
+
+.h1-heading{
+    text-align: center;
+    color: #13183f;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.heading-p{
+    color: #83869A;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    
+}
+
+.get-started-2{
+    width: 167px;
+    border: #13183f;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    color: #fff;
+    padding: 15px;
+    border-radius: 31.5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.courses-container{
+    width: 343px;
+}
+.body-image{
+    padding-top: 85px;
+    max-width: 100%;
+
+}
+
+.check-out{
+    height: 100px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    color: #fff;
+    padding-top: 24px;
+    padding-right: 29px;
+    padding-left: 28px;
+    
+
+}
+
+.animation{
+    margin-left: 40px;
+}
+
+.animation-h2{
+    color: #13183f;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+.animation-p{
+    color: #83869A;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+.animation-get-started{
+    color: #f74780;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px; 
+    cursor: pointer;
+
+}
+
+.design{
+    margin-left: 40px;
+}
+
+.design-h2{
+    color: #13183f;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 800;
+}
+
+.design-p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869A;
+}
+
+
+.design-get-started{
+    color: #f74780;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.photography{
+    margin-left: 40px;
+}
+
+
+.photography-h2{
+    color: #13183f;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 800;
+}
+
+.photography-p{
+    color: #83869A;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+.photography-get-started{
+    color: #f74780;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+
+.crypto{
+    margin-left: 40px;
+
+}
+
+
+.crypto-h2{
+    color: #13183f;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+.crypto-p{
+    color: #83869A;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.crypto-get-started{
+    color: #f74780;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.business{
+    margin-left: 40px;
+}
+
+
+.business-h2{
+    color: #13183f;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 800;
+}
+
+.business-p{
+    color: #83869A;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+
+}
+
+.business-get-started{
+    color: #f74780;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+
+
+.footer-container{
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #13183F;
+
+}
+
+.footer-button{
+    
+    color: #fff;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 28px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 16px;
+    border: #4851FF;
+}
+
+
+.footer-h1{
+    color: #fff;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+    padding: 16px;
+}
